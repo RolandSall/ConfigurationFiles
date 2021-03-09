@@ -18,4 +18,7 @@ spring:
 management:
   endpoint:
     health:
-      show-details=always: always    
+      show-details: always 
+
+server:
+   port: 8081
