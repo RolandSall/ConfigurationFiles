@@ -1,15 +1,14 @@
 spring:
-    data:
-        mongodb:
-            database: Products
-            host: mongo
-            port: 27017
-            
-server:
-  port: 8084
-
-
+  data:
+    mongodb:
+      database: Products
+      host: mongo
+      port: 207017
+      
 eureka:
   client:
     serviceUrl:
       defaultZone: http://register-service:8761/eureka/  
+
+server:
+  port: 8084      
