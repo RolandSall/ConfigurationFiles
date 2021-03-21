@@ -7,3 +7,9 @@ spring:
             
 server:
   port: 8084
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://register-service:8761/eureka/  
