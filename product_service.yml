@@ -3,7 +3,7 @@ spring:
     mongodb:
       database: Products
       host: mongo
-      port: 207017
+      port: 27017
       
 eureka:
   client:
