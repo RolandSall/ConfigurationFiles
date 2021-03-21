@@ -25,3 +25,7 @@ server:
    
 xParam: 705  
 
+eureka:
+    client:
+        service-url:
+            defaultZone:http://register-service:8761/eureka
