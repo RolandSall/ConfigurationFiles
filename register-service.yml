@@ -1,7 +1,17 @@
 eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: register-service
   client:
     register-with-eureka: false
     fetch-registry: false
-    
+ 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
 server:
   port: 8761
+  

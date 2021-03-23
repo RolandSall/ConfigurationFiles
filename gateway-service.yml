@@ -13,4 +13,5 @@ eureka:
     prefer-ip-address: true
 
 server:
-  port: 8084      
+  port: 8088 
+
